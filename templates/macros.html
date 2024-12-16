@@ -12,6 +12,20 @@
 </head>
 {% endmacro head %}
 
+{% macro navbar() %}
+
+  <nav class="nav">
+    <ul>
+      <li><a href="{{ config.base_url }}">Home</a></li>
+      <li><a href="{{ config.base_url }}/about">About</a></li>
+      <li><a href="{{ config.base_url }}/projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <link rel="stylesheet" href="{{ config.base_url ~ "/css/main.css" }}">
+
+{% endmacro navabr %}
+
 {% macro footer() %}
 <footer class="footer">
     <p>&copy; {{ config.extra.username }}</p>
@@ -40,7 +54,7 @@
         <a class="link" href="#projects" data-scroll>Projects</a>
       </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+
 </div>
 {% endmacro header %}
 
