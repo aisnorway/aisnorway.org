@@ -12,8 +12,6 @@ article, aside, figcaption, figure, footer, header, nav, section {
     display: block;
 }
 h1, h2, h3, h4, stong {
-    margin-top: 1em;
-    padding-top: 1em;
     line-height: 1.25;
     color: #333;
 }
@@ -28,10 +26,6 @@ h3 {
 }
 h4 {
     font-size: 1rem;
-}
-ul, ol {
-    margin: 1em 0;
-    padding-left: 40px;
 }
 p, figure {
     margin: 1em 0;

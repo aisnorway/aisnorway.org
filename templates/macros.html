@@ -18,23 +18,13 @@
     <ul>
       <li><a href="{{ config.base_url }}">Home</a></li>
       <li><a href="{{ config.base_url }}/about">About</a></li>
-      <li><a href="{{ config.base_url }}/projects">Projects</a></li>
+      <li><a href="{{ config.base_url }}/contact">Contact</a></li>
     </ul>
   </nav>
 
   <link rel="stylesheet" href="{{ config.base_url ~ "/css/main.css" }}">
 
-{% endmacro navabr %}
-
-{% macro footer() %}
-<footer class="footer">
-    <p>&copy; {{ config.extra.username }}</p>
-    <p>Ported to Zola with <span class="love">❤</span> by <a href="https://github.com/svavs">Silvano Sallese</a> (original by <a href="https://github.com/nrandecker">Nathan Randecker</a>)</p>
-</footer>
-<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="{{ config.base_url ~ "/js/sweet-scroll.min.js" }}"></script>
-<script src="{{ config.base_url ~ "/js/main.js" }}"></script>
-{% endmacro footer %}
+{% endmacro navbar %}
 
 {% macro header() %}
 <div id="particles-js">
@@ -43,20 +33,59 @@
         <span class="site-title">{{ config.extra.username }}</span>
         <span class="site-description">{{ config.extra.user_title | linebreaksbr | safe }}</span>
       </h1>
-      <div class="header-icons">
-        <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
-        <a aria-label="My Github" target="_blank" href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-      </div>
-      <div class="header-links">
-        <a class="link" href="#about" data-scroll>About Me</a>
-        <a class="link" href="#projects" data-scroll>Projects</a>
-      </div>
   </div>
 
 </div>
 {% endmacro header %}
+
+{% macro contact() %}
+
+  <div class="contact-us">
+
+  {% for contact in config.extra.contacts %}
+    <div class="contact-card">
+      <div class="contact-card-header">
+        <img 
+          src="{{ config.base_url ~ contact.image }}" 
+          alt="{{ contact.name }}" 
+          style="width: 250px; height: 300px;">
+        <h2>{{ contact.title }}</h2>
+        <p>{{ contact.name }}</p>
+      </div>
+      <div class="contact-card-desc">
+        <p>{{ contact.description }}</p>
+      </div>
+      {% if contact.links %}
+        <div class="contact-card-links">
+          {% for link in contact.links %}
+            <a aria-label="{{ link.label }}" href="{{ link.url }}">
+              <i class="icon {{ link.icon }}" aria-hidden="true"></i>
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+  </div>
+
+{% endmacro contact %}
+
+{% macro footer() %}
+<footer class="footer">
+    <p>&copy; {{ config.extra.username }}</p>
+
+    <div class="header-icons">
+      <a aria-label="Send email" href="mailto:{{ config.extra.email }}"><i class="icon fa fa-envelope" aria-hidden="true"></i></a>
+      <a aria-label="Our Twitter" target="_blank" href="{{ config.extra.twitter_username }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+      <a aria-label="Our Github" target="_blank" href="{{ config.extra.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+    </div>
+
+    <p>Theme by <a href="https://github.com/svavs">Silvano Sallese</a> (original by <a href="https://github.com/nrandecker">Nathan Randecker</a>)</p>
+</footer>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="{{ config.base_url ~ "/js/sweet-scroll.min.js" }}"></script>
+<script src="{{ config.base_url ~ "/js/main.js" }}"></script>
+{% endmacro footer %}
 
 {% macro google_analytics() %}
 <!-- Google Analytics -->

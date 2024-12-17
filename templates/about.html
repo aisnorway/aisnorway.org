@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+<div class="about-us">
+  {% block content %}
+    <div class="about-us-content">
+      <h1> What is AI Safety? </h1>
+      {{ page.content | safe }}
+
+    </div>
+  {% endblock content %}
+</div>

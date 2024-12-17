@@ -20,12 +20,31 @@ default_language = "en"
 [extra]
 # User settings
 username = "AI Safety Norway"
-user_description = "Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS."
+user_description = "Norwegian chapter of AI Safety Collab"
 user_title = ""
-email = "anon@anon.com"
-twitter_username = "lorem_ipsum"
-github_username =  "lorem_ipsum"
-gplus_username =  "lorem_ipsum"
+email = "ckengelsen97@gmail.com"
+twitter_username = "#"
+github_username = "https://github.com/aisnorway"
 
 # Google-analytics
 google_analytics.id = ""
+
+contacts = [
+    { name = "Person 1", image ="/img/contacts/leader.jpg", title = "Leader", email = "mailto:leder@aisnorway.org", description = "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", links = [
+        { name = "Linkedin", url = "https://www.linkedin.com/in/person1/", label = "LinkedIn", icon = "fa fa-linkedin"},
+        { name = "Github", url = "https://github.com/person1", label = "Github", icon = "fa fa-github"},
+        { name = "Twitter", url = "https://twitter.com/person1", label = "Twitter", icon = "fa fa-twitter"},
+    ] },
+    
+    { name = "Person 2", image ="/img/contacts/secleader.jpg", title = "Second leader", email = "mailto:leder@aisnorway.org", description = "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", links = [
+        { name = "Linkedin", url = "https://www.linkedin.com/in/person2/", label = "LinkedIn", icon = "fa fa-linkedin"},
+        { name = "Github", url = "https://github.com/person2", label = "Github", icon = "fa fa-github"},
+        { name = "Twitter", url = "https://twitter.com/person2", label = "Twitter", icon = "fa fa-twitter"},
+    ] },
+    
+    { name = "Person 3", image ="/img/contacts/member.jpg", title = "Member", email = "mailto:leder@aisnorway.org", description = "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", links = [
+        { name = "Linkedin", url = "https://www.linkedin.com/in/person3/", label = "LinkedIn", icon = "fa fa-linkedin"},
+        { name = "Github", url = "https://github.com/person3", label = "Github", icon = "fa fa-github"},
+        { name = "Twitter", url = "https://twitter.com/person3", label = "Twitter", icon = "fa fa-twitter"},
+    ] },
+]
