@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
-<div class="about-us">
-  {% block content %}
+{% block content %}
+<div class="about-page">
+    {# Main page content #}
     <div class="about-us-content">
-      <h1> What is AI Safety? </h1>
-      {{ page.content | safe }}
+        {{ page.content | safe }}
+    </div> 
 
-    </div>
-  {% endblock content %}
 </div>
+{% endblock content %}

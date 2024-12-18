@@ -1,33 +1,17 @@
-#about {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
-}
+.about-page {
 
-.tech {
-  margin: 10px;
-}
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  word-wrap: break-word;
+  word-break:normal;
 
-.user {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  p {
-    font-size: 16px;
-  }
-  @media only screen and (min-width: $cut) {
-    flex-wrap: nowrap;
-    font-size: 75px;
-  }
-}
+  .about-content {
+    padding-top: 0;
+    padding-bottom: 0;
 
-.user-details {
-  text-align: center;
-  margin: 5px auto;
+    h2 {
+      margin-top: 3%;
+    }
+  }
 }

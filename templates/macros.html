@@ -9,6 +9,9 @@
   <meta name="description" content="{% if page.description %}{{ page.description | striptags | trim | truncate(length=160) }}{% else %}{{ config.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ config.base_url ~ "/main.css" }}">
+  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="{{ config.base_url ~ "/js/sweet-scroll.min.js" }}"></script>
+  <script src="{{ config.base_url ~ "/js/main.js" }}"></script>
 </head>
 {% endmacro head %}
 
@@ -16,9 +19,12 @@
 
   <nav class="nav">
     <ul>
+      {% if current_path != "/" %}
       <li><a href="{{ config.base_url }}">Home</a></li>
+      {% endif %}
       <li><a href="{{ config.base_url }}/about">About</a></li>
       <li><a href="{{ config.base_url }}/contact">Contact</a></li>
+      <li><a href="{{ config.base_url }}/activity">Activity</a></li>
     </ul>
   </nav>
 

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="activity-page">
+    {# Main page content #}
+    <div class="activity-content">
+        {{ page.content | safe }}
+    </div> 
+
+    <div class="activity-calendar">
+        <iframe 
+            title="AISN Calendar" 
+            src="https://calendar.google.com/calendar/embed?src=aisafetybergen%40gmail.com&ctz=Europe%2FOslo"></iframe>
+    </div>
+
+</div>
+
+{% endblock content %}

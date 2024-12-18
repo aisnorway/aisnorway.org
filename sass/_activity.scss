@@ -1,0 +1,28 @@
+.activity-page {
+    margin-top: 3%;
+    width: 100vw;
+
+    .activity-content, .activity-calendar {
+        width: 80%;
+        margin: auto; 
+    }
+
+    .activity-calendar {
+        @media only screen and (max-width: $cut) {
+            width: 100%;
+        } 
+    }
+
+    .activity-calendar iframe {
+        margin-top: 3%;
+        width: 100%;
+        height: 70vh;  
+    }
+
+    .activity-content h2,h3{ 
+        margin-top: 3%;
+    }
+
+
+}
+
