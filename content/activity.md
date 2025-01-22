@@ -1,12 +1,10 @@
 +++
 template = "activity.html" 
-title = "Activity"
+title = "Aktivitet"
 +++
 
-## What we do
+## Hva gjør vi på?
+Vi møtes regelmessig for diskusjoner og workshops. Vi organiserer bokklubb, forelesninger og diskusjonsgrupper. Alle møter er åpne for offentligheten og du kan se en oversikt i kalenderen nederst på denne siden.
 
-We regularly meet up for discussions and workshops. we are organizing book clubs, lectures, and discussion groups. All meetings are open to the public and you can see an overview in the calendar at the bottom of this page.
-
-### Discussion groups
-
-Every thursday we meet up at Høyteknologisenteret for our discussion group we are hosting. In these discussion groups, we go through AI Safety concepts and problems. For the moment we are going through a "course" in mechanistic interpretability. Besides that, we are also discussing generally interesting topics in AI safety.
+### Diskusjonsgrupper
+Hver torsdag møtes vi på Høyteknologisenteret for vår diskusjonsgruppe. I disse diskusjonsgruppene går vi gjennom konsepter og problemer innen AI-sikkerhet. For øyeblikket går vi gjennom et "kurs" i mekanistisk tolkbarhet. I tillegg diskuterer vi også generelt interessante temaer innen AI-sikkerhet.

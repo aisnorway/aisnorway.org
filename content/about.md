@@ -1,29 +1,26 @@
 +++
 template = "about.html" 
-title = "Who are we?" 
+title = "Hvem er vi?" 
 +++
 
-## Who are we?
+## Hvem er vi?
 
-AI Safety Norway is the norwegian chapter of AI Safety Collab. We are a non-profit organization that aims to promote ethical and responsible AI development practices. Our organization is committed to fostering a culture of ethical AI development, where researchers, professionals, students, and concerned citizens work together to address the challenges and opportunities presented by AI.
+Vi er en ideell organisasjon som har som mål å fremme etisk og ansvarlig utvikling av kunstig intelligens. Vår organisasjon er dedikert til å fostre en kultur for etisk AI-utvikling, der forskere, fagfolk, studenter og engasjerte borgere jobber sammen for å møte utfordringene og mulighetene som AI presenterer.
 
-As part of the global AI Safety movement, we focus on the unique opportunities and challenges presented by AI in Bergen and the surrounding region.Our organization brings together a diverse group of researchers, professionals, students, and concerned citizens who share a common goal: to contribute to the responsible advancement of AI technology. 
+Som en del av den globale AI Safety-bevegelsen fokuserer vi på de unike mulighetene og utfordringene som AI representerer i Bergen og omkringliggende region. Vår organisasjon samler en mangfoldig gruppe forskere, fagfolk, studenter og engasjerte borgere som deler et felles mål: å bidra til ansvarlig utvikling av AI-teknologi.
+Vi mener at etter hvert som AI-systemer blir stadig mer kraftfulle og innflytelsesrike i samfunnet vårt, er det avgjørende å jobbe proaktivt for å tilpasse disse systemene til menneskelige verdier og interesser.
 
-We believe that as AI systems become increasingly powerful and influential in our society, it's crucial to work proactively to align these systems with human values and interests. 
+I AI Safety Norge organiserer vi regelmessige møter, workshops og forelesninger for å utforske sentrale temaer innen AI-sikkerhet, som teknisk tilpasning, verdijustering, AI-styring og potensielle langsiktige konsekvenser av avanserte AI-systemer. Disse arrangementene gir en plattform for læring, diskusjon og samarbeid mellom medlemmer og inviterte eksperter.
 
-At AI Safety Bergen, we organize regular meetups, workshops, and lectures to explore key topics in AI safety, such as technical alignment, value alignment, AI governance, and the potential long-term impacts of advanced AI systems. These events provide a platform for learning, discussion, and collaboration among members and invited experts.
+Enten du er AI-forsker, student interessert i teknologietikk, eller bare en engasjert borger, tilbyr AI Safety Bergen et inkluderende fellesskap for å utforske disse kritiske spørsmålene. Bli med oss i vårt oppdrag med å forme fremtiden for AI i Bergen og utover, og sikre at når vi utnytter kraften i kunstig intelligens, gjør vi det på en måte som er trygg, etisk og på linje med menneskelige verdier.
 
-Whether you're an AI researcher, a student interested in technology ethics, or simply a concerned citizen, AI Safety Bergen offers a welcoming community to explore these critical issues. Join us in our mission to shape the future of AI in Bergen and beyond, ensuring that as we harness the power of artificial intelligence, we do so in a way that is safe, ethical, and aligned with human values.
+## Vårt mål
 
+Vårt oppdrag er å bidra til ansvarlig utvikling av AI-teknologi ved å fremme etiske og ansvarlige utviklingspraksiser. Vi mener at AI-systemer har potensial til å revolusjonere samfunnet vårt, men de utgjør også betydelige risikoer hvis de ikke utvikles og implementeres på en ansvarlig måte. Derfor er vi forpliktet til å jobbe proaktivt for å sikre at AI-systemer utvikles og implementeres på en måte som er trygg, etisk og på linje med menneskelige verdier.
+Vår organisasjon er dedikert til å fostre en kultur for etisk AI-utvikling, der forskere, fagfolk, studenter og engasjerte borgere jobber sammen for å møte utfordringene og mulighetene som AI presenterer. Vi mener at AI-systemer har potensial til å transformere verden vår, men vi må sikre at de utvikles og implementeres på en måte som er trygg, etisk og på linje med menneskelige verdier.
 
-## Our mission
+## Vår visjon
 
-Our mission is to contribute to the responsible advancement of AI technology by promoting ethical and responsible AI development practices. We believe that AI systems have the potential to revolutionize our society, but they also pose significant risks if not developed and deployed responsibly. As a result, we are committed to working proactively to ensure that AI systems are developed and deployed in a way that is safe, ethical, and aligned with human values.
+Vår visjon er å være en ledende organisasjon i den globale AI Safety-bevegelsen, dedikert til å fremme etiske og ansvarlige utviklingspraksiser for AI. Vi mener at AI-systemer har potensial til å revolusjonere samfunnet vårt, men de utgjør også betydelige risikoer hvis de ikke utvikles og implementeres på en ansvarlig måte. Derfor er vi forpliktet til å jobbe proaktivt for å sikre at AI-systemer utvikles og implementeres på en måte som er trygg, etisk og på linje med menneskelige verdier.
 
-Our organization is committed to fostering a culture of ethical AI development, where researchers, professionals, students, and concerned citizens work together to address the challenges and opportunities presented by AI. We believe that AI systems have the potential to transform our world, but we must ensure that they are developed and deployed in a way that is safe, ethical, and aligned with human values.
-
-## Our vision
-
-Our vision is to be a leading organization in the global AI Safety movement, dedicated to promoting ethical and responsible AI development practices. We believe that AI systems have the potential to revolutionize our society, but they also pose significant risks if not developed and deployed responsibly. As a result, we are committed to working proactively to ensure that AI systems are developed and deployed in a way that is safe, ethical, and aligned with human values.
-
-Our organization is committed to fostering a culture of ethical AI development, where researchers, professionals, students, and concerned citizens work together to address the challenges and opportunities presented by AI. We believe that AI systems have the potential to transform our world, but we must ensure that they are developed and deployed in a way that is safe, ethical, and aligned with human values.
+Vår organisasjon er dedikert til å fostre en kultur for etisk AI-utvikling, der forskere, fagfolk, studenter og engasjerte borgere jobber sammen for å møte utfordringene og mulighetene som AI presenterer. Vi mener at AI-systemer har potensial til å transformere verden vår, men vi må sikre at de utvikles og implementeres på en måte som er trygg, etisk og på linje med menneskelige verdier.

@@ -1,8 +1,5 @@
 # The URL the site will be built for
-base_url = "https://aisnorway.github.io/aisnorway.org/"
-
-title = "AI Safety Norway"
-description = "Home of the AI Safety Norway community"
+base_url = "localhost"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -11,17 +8,41 @@ compile_sass = true
 build_search_index = false
 
 # The default language; used in feeds.
-default_language = "en"
+default_language = "no"
+
+title = "AI Safety Norge"
+description = "Hjem til det norske fellesskapet for KI Sikkerhet"
+
+[languages.en]
+
+title = "AI Safety Norway"
+description = "Home of the AI Safety Norway community"
+
+compile_sass = true
+build_search_index = false
+
+[languages.en.translations]
+
+navhome = "Home"
+navabout = "About"
+navactivity = "Activity"
+
+[translations]
+
+navhome = "Hjem"
+navabout = "Om oss"
+navactivity = "Aktivitet"
 
 [markdown]
 render_section_content = true
 
 [extra]
+
 # User settings
-username = "AI Safety Norway"
-user_description = "Norwegian chapter of AI Safety Collab"
+username = "AI Safety Norge"
+user_description = "Hjem til det norske fellesskapet for KI Sikkerhet"
 user_title = ""
-email = "ckengelsen97@gmail.com"
+email = "aisafetybergen@gmail.com"
 twitter_username = "#"
 github_username = "https://github.com/aisnorway"
 
