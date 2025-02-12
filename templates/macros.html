@@ -22,15 +22,18 @@
 
     <ul>
       <li><a href="{{ get_url(path="/", lang=lang) }}">{{ trans(key="navhome", lang=lang) }}</a></li>
-      <li><a href="{{ get_url(path="/about", lang=lang) }}">{{ trans(key="navabout", lang=lang) }}</a></li>
       <li><a href="{{ get_url(path="/activity", lang=lang) }}">{{ trans(key="navactivity", lang=lang) }}</a></li>
-
+      <li><a href="{{ get_url(path="/about", lang=lang) }}">{{ trans(key="navabout", lang=lang) }}</a></li>
+      <li><a href="{{ get_url(path="/contact", lang=lang) }}">{{ trans(key="navcontact", lang=lang) }}</a></li>
+    </ul>
+    
+    <div class="language-select">
       {% if lang == "en" or current_path == "en/" %}
-        <li class="language-select"><a href="{{ get_url(path=mypath, lang="no") }}">🇳🇴</a></li>
-      {% else %}
-        <li class="language-select"><a href="{{ get_url(path=mypath, lang="en") }}">🇬🇧</a></li>
-      {% endif %}
-    </ul>       
+      <a href="{{ get_url(path=mypath, lang="no") }}">🇳🇴</a>
+    {% else %}
+      <a href="{{ get_url(path=mypath, lang="en") }}">🇬🇧</a>
+    {% endif %}
+    </div>
   </nav>
 
   <link rel="stylesheet" href="{{ config.base_url ~ "/main.css" }}">
@@ -60,11 +63,8 @@
           src="{{ config.base_url ~ contact.image }}" 
           alt="{{ contact.name }}" 
           style="width: 250px; height: 300px;">
-        <h2>{{ contact.title }}</h2>
-        <p>{{ contact.name }}</p>
-      </div>
-      <div class="contact-card-desc">
-        <p>{{ contact.description }}</p>
+        <h2>{{ contact.name }}</h2>
+        <p>{{ contact.title }}</p>
       </div>
       {% if contact.links %}
         <div class="contact-card-links">

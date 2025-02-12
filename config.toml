@@ -23,12 +23,14 @@ build_search_index = false
 
 navhome = "Home"
 navabout = "About"
+navcontact = "Contact"
 navactivity = "Activity"
 
 [translations]
 
 navhome = "Hjem"
-navabout = "Om oss"
+navabout = "Om"
+navcontact = "Kontakt"
 navactivity = "Aktivitet"
 
 [markdown]
@@ -40,7 +42,7 @@ render_section_content = true
 username = "AI Safety Norge"
 user_description = "Hjem til det norske fellesskapet for KI Sikkerhet"
 user_title = ""
-email = "aisafetybergen@gmail.com"
+email = "aisafetynorway@gmail.com"
 twitter_username = "#"
 github_username = "https://github.com/aisnorway"
 
@@ -48,21 +50,26 @@ github_username = "https://github.com/aisnorway"
 google_analytics.id = ""
 
 contacts = [
-    { name = "Person 1", image ="/img/contacts/leader.jpg", title = "Leader", email = "mailto:leder@aisnorway.org", description = "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", links = [
-        { name = "Linkedin", url = "https://www.linkedin.com/in/person1/", label = "LinkedIn", icon = "fa fa-linkedin"},
-        { name = "Github", url = "https://github.com/person1", label = "Github", icon = "fa fa-github"},
-        { name = "Twitter", url = "https://twitter.com/person1", label = "Twitter", icon = "fa fa-twitter"},
+    { name = "William Wale", image ="/img/contacts/leader.jpg", title = "Chief Operations Manager", links = [
+        { name = "email", url = "mailto:mailto:wiwal2741@uib.no", label = "Email", icon = "fa fa-envelope"},
     ] },
     
-    { name = "Person 2", image ="/img/contacts/secleader.jpg", title = "Second leader", email = "mailto:leder@aisnorway.org", description = "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", links = [
+    { name = "Marius Binner", image ="/img/contacts/secleader.png", title = "Chief Internal Operations Manager", links = [
         { name = "Linkedin", url = "https://www.linkedin.com/in/person2/", label = "LinkedIn", icon = "fa fa-linkedin"},
         { name = "Github", url = "https://github.com/person2", label = "Github", icon = "fa fa-github"},
         { name = "Twitter", url = "https://twitter.com/person2", label = "Twitter", icon = "fa fa-twitter"},
     ] },
     
-    { name = "Person 3", image ="/img/contacts/member.jpg", title = "Member", email = "mailto:leder@aisnorway.org", description = "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", links = [
-        { name = "Linkedin", url = "https://www.linkedin.com/in/person3/", label = "LinkedIn", icon = "fa fa-linkedin"},
-        { name = "Github", url = "https://github.com/person3", label = "Github", icon = "fa fa-github"},
-        { name = "Twitter", url = "https://twitter.com/person3", label = "Twitter", icon = "fa fa-twitter"},
+    { name = "Sigurd Bakken-Snekkevik", image ="/img/contacts/ecoleader.jpg", title = "Director of Financial Management", links = [
+        { name = "Phone Number", url = "tel:+4741652855", label = "Phone Number", icon = "fa fa-phone"},
+        { name = "Linkedin", url = "https://no.linkedin.com/in/sigurd-bakken-snekkevik-977b7821", label = "LinkedIn", icon = "fa fa-linkedin"},
+    ] },
+    
+    { name = "Christian Kårbø Engelsen", image ="/img/contacts/tecleader.jpg", title = "Chief Technology Developer", links = [
+        { name = "Email", url ="mailto:ckengelsen97@gmail.com", label = "Email", icon = "fa fa-envelope"},
+        { name = "Phone Number", url = "tel:+4799587363", label = "Phone Number", icon = "fa fa-phone"},
+        { name = "Linkedin", url = "www.linkedin.com/in/christian-kårbø-engelsen-7a07941aa", label = "LinkedIn", icon = "fa fa-linkedin"},
+        { name = "Github", url = "https://github.com/Cengelsen", label = "Github", icon = "fa fa-github"},
+
     ] },
 ]
