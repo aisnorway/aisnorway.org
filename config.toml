@@ -55,9 +55,7 @@ contacts = [
     ] },
     
     { name = "Marius Binner", image ="/img/contacts/secleader.png", title = "Chief Internal Operations Manager", links = [
-        { name = "Linkedin", url = "https://www.linkedin.com/in/person2/", label = "LinkedIn", icon = "fa fa-linkedin"},
-        { name = "Github", url = "https://github.com/person2", label = "Github", icon = "fa fa-github"},
-        { name = "Twitter", url = "https://twitter.com/person2", label = "Twitter", icon = "fa fa-twitter"},
+        {name="Email", url="mailto:marbinner@gmail.com", label="Email", icon="fa fa-envelope"},
     ] },
     
     { name = "Sigurd Bakken-Snekkevik", image ="/img/contacts/ecoleader.jpg", title = "Director of Financial Management", links = [

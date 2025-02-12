@@ -2,14 +2,16 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 5vh;
+  height: clamp(40px, 5vh, 60px);
   background-color: $main;
   z-index: 10;
   text-align: center;
   display: flex;
+  justify-content: space-between; // Changed to space-between for layout
 
   ul {
-    width: 80%;
+    width: auto;
+    height: clamp(40px, 5vh, 60px);
     list-style: none;
     margin: auto;
     padding: 0;
@@ -28,16 +30,27 @@
         color: grey;
         text-decoration: none;
         transition: all 0.3s ease;
-
+        
         &:hover {
           color: white;
         }
       }
     }
+  }
 
-    .language-select {
-      font-size: 1.5rem;
+  .language-select {
+    height: inherit;
+    width: clamp(40px, 20%, 60px);
+    font-size: 2rem;
+    text-decoration: none;
 
+    a {
+      display: inline-block;
+      min-width: 100%;
+      height: clamp(40px, 5vh, 60px);
+      text-decoration: none;
+      text-align: center;
+      line-height: clamp(40px, 5vh, 60px);
     }
   }
 }
