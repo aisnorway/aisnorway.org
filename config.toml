@@ -50,7 +50,7 @@ github_username = "https://github.com/aisnorway"
 google_analytics.id = ""
 
 contacts = [
-    { name = "William Wale", image ="/img/contacts/leader.jpg", title = "Chief Operations Manager", links = [
+    { name = "William Wale", image ="/img/contacts/leader.jpg", title = "President", links = [
         { name = "email", url = "mailto:mailto:wiwal2741@uib.no", label = "Email", icon = "fa fa-envelope"},
     ] },
     
