@@ -70,4 +70,14 @@ contacts = [
         { name = "Github", url = "https://github.com/Cengelsen", label = "Github", icon = "fa fa-github"},
 
     ] },
+
+    { name = "Casper Matheus Bjørlykhaug Olsvik", image ="/img/contacts/polleader.png", title = "Policy Officer", links = [
+        { name = "Email", url ="mailto:cas.olsvik@gmail.com", label = "Email", icon = "fa fa-envelope"},
+        { name = "Linkedin", url = "#", label = "LinkedIn", icon = "fa fa-linkedin"},
+    ] },
+
+    { name = "Joakim Hauger Sunde", image="/img/contacts/scileader.png", title = "Director of Research", links=[
+        { name = "Email", url ="mailto:joakimhauger97@gmail.com", label = "Email", icon = "fa fa-envelope"},
+        { name = "Linkedin", url = "#", label = "LinkedIn", icon = "fa fa-linkedin"},
+    ]}
 ]
