@@ -50,11 +50,11 @@ github_username = "https://github.com/aisnorway"
 google_analytics.id = ""
 
 contacts = [
-    { name = "William Wale", image ="/img/contacts/leader.jpg", title = "President", links = [
+    { name = "William Wale", image ="/img/contacts/leader.jpg", title = "Leader", links = [
         { name = "email", url = "mailto:mailto:wiwal2741@uib.no", label = "Email", icon = "fa fa-envelope"},
     ] },
     
-    { name = "Marius Binner", image ="/img/contacts/secleader.png", title = "Chief Internal Operations Manager", links = [
+    { name = "Marius Binner", image ="/img/contacts/secleader.png", title = "Vice President", links = [
         {name="Email", url="mailto:marbinner@gmail.com", label="Email", icon="fa fa-envelope"},
     ] },
     
@@ -68,6 +68,5 @@ contacts = [
         { name = "Phone Number", url = "tel:+4799587363", label = "Phone Number", icon = "fa fa-phone"},
         { name = "Linkedin", url = "www.linkedin.com/in/christian-kårbø-engelsen-7a07941aa", label = "LinkedIn", icon = "fa fa-linkedin"},
         { name = "Github", url = "https://github.com/Cengelsen", label = "Github", icon = "fa fa-github"},
-
     ] },
 ]
