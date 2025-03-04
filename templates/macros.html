@@ -54,6 +54,13 @@
 
 {% macro contact() %}
 
+
+  <div class="general-contact">
+    <p>{{ trans(key="generalcontact", lang=lang) }}</p>
+  </div>
+
+  <h2 class="boardheader">{{ trans(key="boardmembers", lang=lang) }}</h2>
+
   <div class="contact-us">
 
   {% for contact in config.extra.contacts %}
@@ -64,7 +71,7 @@
           alt="{{ contact.name }}" 
           style="width: 250px; height: 300px;">
         <h2>{{ contact.name }}</h2>
-        <p>{{ contact.title }}</p>
+        <p>{{ trans(key=contact.title, lang=lang) }}</p>
       </div>
       {% if contact.links %}
         <div class="contact-card-links">
