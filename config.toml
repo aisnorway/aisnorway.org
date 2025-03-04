@@ -71,7 +71,7 @@ google_analytics.id = ""
 
 contacts = [
     { name = "William Wale", image ="/img/contacts/leader.jpg", title = "titleLeader", links = [
-        { name = "email", url = "mailto:mailto:wiwal2741@uib.no", label = "Email", icon = "fa fa-envelope"},
+        { name = "email", url = "mailto:wiwal2741@uib.no", label = "Email", icon = "fa fa-envelope"},
     ] },
     
     { name = "Marius Binner", image ="/img/contacts/secleader.png", title = "titleSecLeader", links = [
