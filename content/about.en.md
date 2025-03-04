@@ -5,9 +5,9 @@ title = "Who are we?"
 
 ## Mission Statement
 
-As AI systems grow increasingly powerful and widespread, they bring not only opportunities but potentially catastrophic risks for humanity. We believe it is essential to work proactively to ensure these systems remain safe and aligned with human values and interests.
+As AI systems grow increasingly powerful and widespread, they bring potentially catastrophic risks for humanity. We believe it is essential to work proactively to ensure these systems remain safe and aligned with human values and interests.
 
-In the last decade—particularly the last 5 years—AI capabilities have evolved at a breathtaking pace. Yet the science of steering, interpreting, and controlling these systems has not kept pace. We cannot predict precisely when AI will develop the concerning capabilities that could pose existential risks. This uncertainty, combined with rapid advancement, creates a precarious situation demanding urgent, thoughtful action.
+In the last decade—particularly the last 5 years—AI capabilities have evolved at a breathtaking pace. Yet the science of steering, interpreting, and controlling these systems has not kept pace. We cannot predict precisely when AI will develop the concerning capabilities that could pose existential risks. This uncertainty, combined with rapid advancement, creates a precarious situation demanding urgent, thoughtful and decisive action.
 
 ## Who are we?
 

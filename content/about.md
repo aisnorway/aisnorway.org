@@ -5,17 +5,17 @@ title = "Hvem er vi?"
 
 ## Formål
 
-Som AI systemer blir mer og mer intelligence og integrert i samfunnet, så medfølger ikke bare muligheter, men også stadig større risikoer for samfunnet. Det er derfor essensielt å arbeide proaktivt for å sikre at disse systemene er trygge og tjener menneskelige verdier og interesser.
+Når KI-systemer blir mer og mer intelligente og integrerte i samfunnet, så følger stadig større risikoer. Det er derfor viktig å jobbe forebyggende for å sikre at disse systemene er trygge og tjener menneskelige verdier og interesser.
 
-Det siste tiåret, spesielt siden publikasjonen av GPT-2, har KI utviklet seg med en forferdelig hastiget. Men vår evne til å styre, kontrollere og tolke disse KI-systemene har ikke holdt trudt. Det er også ikke mulig å forutsi når KI-systemene vil oppnå de evnene/kapabilitetene vi er bekymret over. Disse to faktum tatt sammen indikerer at vi står i en illevarslende situatsjon, og at vi må handle raskt og tenke grundig.
+Det siste tiåret, spesielt siden publikasjonen av GPT-2, har KI utviklet seg med en voldsom hastiget. Samtidig har vår evne til å styre, kontrollere og tolke disse KI-systemene har ikke holdt tritt. Det er heller ikke mulig å forutsi når KI-systemene vil oppnå de evnene vi er bekymret over. Dette indikerer at vi er i en farlig situatsjon, og at vi må handle raskt og grundig.
 
 ## Hvem er vi?
 
-AI Safety Norway er en dedikert norsk veldedig organisasjon som jobber for å sikre at utviklingen av transformativ AI ender opp med å være fordelaktig for menneskeheten. Vi opererer over tre hovedområder:
+AI Safety Norway er en dedikert norsk veldedig organisasjon som jobber for å sikre at utviklingen av transformativ KI ender opp med å være fordelaktig for menneskeheten. Vi opererer over tre hovedområder:
 
 - **Forskning**: Vi fokuserer spesielt på tolkbarhet – utvikling av metoder for å forstå hva som skjer i KI-systemer og hvordan de tar beslutninger.
-- **Outreach**: Vi holder events for å informere ikke-spesialister om AI-sikkerhet.
-- **Politisk arbeid**: Vi jobber med politikere for å utvikle lover og retningslinjer som fremmer ansvarlig AI-utvikling. 
+- **Outreach**: Vi holder events for å informere ikke-spesialister om KI-sikkerhet.
+- **Politisk arbeid**: Vi jobber med politikere for å utvikle lover og retningslinjer som fremmer ansvarlig KI-utvikling. 
 
 <br />
 
