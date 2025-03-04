@@ -14,9 +14,10 @@ Det siste tiåret, spesielt siden publikasjonen av GPT-2, har KI utviklet seg me
 AI Safety Norway er en dedikert norsk veldedig organisasjon som jobber for å sikre at utviklingen av transformativ AI ender opp med å være fordelaktig for menneskeheten. Vi opererer over tre hovedområder:
 
 - **Forskning**: Vi fokuserer spesielt på tolkbarhet – utvikling av metoder for å forstå hva som skjer i KI-systemer og hvordan de tar beslutninger.
-- **Outreach**: Vi holder events for å informere ikke-spesialister om AI-sikkerhet og -sikkerhet.
-- **Politisk arbeid**: Vi jobber med politikere for å utvikle lover og retningslinjer som fremmer ansvarlig AI-utvikling.
+- **Outreach**: Vi holder events for å informere ikke-spesialister om AI-sikkerhet.
+- **Politisk arbeid**: Vi jobber med politikere for å utvikle lover og retningslinjer som fremmer ansvarlig AI-utvikling. 
 
+<br />
 
 
 ## Kontakt

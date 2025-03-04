@@ -17,6 +17,7 @@ AI Safety Norway is a dedicated Norwegian non-profit organization working to ens
 - **Outreach**: We educate the public, researchers, and industry about AI safety challenges and solutions through workshops, seminars, and publications.
 - **Policy Advocacy**: We work with policymakers to develop regulations and frameworks that promote responsible AI development.
 
+<br />
 
 
 ## Contact
