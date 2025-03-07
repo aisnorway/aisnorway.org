@@ -7,7 +7,7 @@ title = "Hvem er vi?"
 
 Når KI-systemer blir mer og mer intelligente og integrerte i samfunnet, så følger stadig større risikoer. Det er derfor viktig å jobbe forebyggende for å sikre at disse systemene er trygge og tjener menneskelige verdier og interesser.
 
-Det siste tiåret, spesielt siden publikasjonen av GPT-2, har KI utviklet seg med en voldsom hastiget. Samtidig har vår evne til å styre, kontrollere og tolke disse KI-systemene har ikke holdt tritt. Det er heller ikke mulig å forutsi når KI-systemene vil oppnå de evnene vi er bekymret over. Dette indikerer at vi er i en farlig situatsjon, og at vi må handle raskt og grundig.
+Det siste tiåret, spesielt siden publikasjonen av GPT-2, har KI utviklet seg med en voldsom hastiget. Samtidig har vår evne til å styre, kontrollere og tolke disse KI-systemene har ikke holdt tritt. Det er heller ikke mulig å forutsi nøyaktiv når KI-systemene vil oppnå de evnene vi er bekymret over. Dette indikerer at vi er i en farlig situatsjon, og at vi må handle raskt.
 
 ## Hvem er vi?
 
