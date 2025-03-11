@@ -90,7 +90,7 @@ contacts = [
         { name = "Github", url = "https://github.com/Cengelsen", label = "Github", icon = "fa fa-github"},
     ] },
     
-    { name = "Casper Matheus Bjørlykhaug Olsvik", image ="/img/contacts/polleader.png", title = "titlePolicyLeader", links = [
+    { name = "Casper M. B. Olsvik", image ="/img/contacts/polleader.png", title = "titlePolicyLeader", links = [
         { name = "Email", url ="mailto:cas.olsvik@gmail.com", label = "Email", icon = "fa fa-envelope"},
         { name = "Linkedin", url = "https://www.linkedin.com/in/casperolsvik/", label = "LinkedIn", icon = "fa fa-linkedin"},
     ] },

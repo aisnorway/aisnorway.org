@@ -55,10 +55,11 @@ body {
 
 .contact-us {
   margin-top: 3vh;
-  width: 100%;
-  max-width: 1200px;
+  width: 80vw;
+  justify-self: center;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
   gap: 0;
 
   .contact-card {
@@ -126,7 +127,8 @@ body {
         text-decoration: none;
         font-weight: 600;
         font-size: 0.8rem;
-        margin-left: 3cqw;
+        margin-left: 1.5cqw;
+        margin-right: 1.5cqw;
         @include smooth-transition(transform);
         @include smooth-transition(color);
 
