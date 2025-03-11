@@ -1,10 +1,12 @@
 // Color Palette
-$color-primary: #2c3e50;
-$color-secondary: #34495e;
-$color-accent: #3498db;
-$color-light-gray: #ecf0f1;
-$color-text: #2c3e50;
-$color-white: #ffffff;
+$colors: (
+  primary: #2c3e50,
+  secondary: #34495e,
+  accent: #3498db,
+  light-gray: #ecf0f1,
+  white: #ffffff,
+  links: rgb(184, 205, 234)
+);
 
 // Typography
 $font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
@@ -29,8 +31,8 @@ $font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, '
 
 body {
   font-family: $font-primary;
-  background-color: $color-light-gray;
-  color: $color-text;
+  background-color: map-get($colors, light-gray);
+  color: map-get($colors, primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -39,12 +41,11 @@ body {
   text-align: center;
   width: 90%;
   font-size: 1.1rem;
-  color: $color-primary;
+  color: map-get($colors, primary);
   font-weight: 600;
-  margin: 2vh auto 2vh auto;
-
-  border-top: #2c3e50 solid .2rem;
-  border-bottom: #2c3e50 solid .2rem;
+  margin: 2vh auto;
+  border-top: map-get($colors, primary) solid 0.2rem;
+  border-bottom: map-get($colors, primary) solid 0.2rem;
 }
 
 .boardheader {
@@ -52,98 +53,108 @@ body {
   text-align: center;
 }
 
-
 .contact-us {
-  margin-top: 3vh;
-  width: 80vw;
-  justify-self: center;
-  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 3vh auto 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(280px, 1fr));
-  gap: 0;
-
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 20px;
+  padding: 0 15px;
+  
+  @media (min-width: 1080px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
   .contact-card {
-    background-color: $color-white;
-    border: 1px solid darken($color-light-gray, 5%);
+    background-color: map-get($colors, white);
+    border: 1px solid darken(map-get($colors, light-gray), 5%);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     @include smooth-transition(transform);
     
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
     &-header {
-        margin-top: 2vh;
+      padding: 20px;
       @include flex-center;
       flex-direction: column;
-      background-color: $color-white;
       text-align: center;
-      border-bottom: 1px solid $color-light-gray;
-
+      border-bottom: 1px solid map-get($colors, light-gray);
+      
       img {
         width: 80%;
-        height: 40%;
+        max-width: 250px;
+        height: auto;
+        aspect-ratio: 16/9;
         border-radius: 3%;
         object-fit: cover;
-        border: 2px solid $main;
+        border: 2px solid map-get($colors, primary);
+        margin-bottom: 15px;
       }
-
+      
       h2 {
         font-size: 1.1rem;
-        color: $color-primary;
+        color: map-get($colors, primary);
         font-weight: 600;
+        margin-bottom: 5px;
       }
-
+      
       p {
         font-size: 0.9rem;
-        color: $color-secondary;
+        color: map-get($colors, secondary);
         font-weight: 500;
       }
     }
-
+    
     &-desc {
       text-align: justify;
-      display: block;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin: auto;
-
+      padding: 15px;
+      flex: 1;
+      
       p {
-        color: $color-text;
+        color: map-get($colors, primary);
         font-size: 0.85rem;
         line-height: 1.5;
         word-wrap: break-word;
-        width: 100%;
       }
     }
-
+    
     &-links {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: $color-light-gray;
-      border-top: 1px solid darken($color-light-gray, 5%);
-      height: 5vh;
-
-
+      background-color: map-get($colors, links);
+      border-top: 1px solid darken(map-get($colors, light-gray), 5%);
+      padding: 10px 0;
+      
       a {
-        color: $color-primary;
+        color: map-get($colors, primary);
         text-decoration: none;
         font-weight: 600;
         font-size: 0.8rem;
-        margin-left: 1.5cqw;
-        margin-right: 1.5cqw;
-        @include smooth-transition(transform);
-        @include smooth-transition(color);
-
+        margin: 0 15px;
+        @include smooth-transition();
+        
         &:hover {
-          color: darken($main, 10%);
-          transform: scale(1.2);
+          color: darken(map-get($colors, primary), 10%);
+          transform: scale(1.1);
         }
-
+        
         i {
-            @include smooth-transition(fill, transform);
-          font-size: 2rem;
-
+          font-size: 1.5rem;
+          display: inline-block;
+          @include smooth-transition();
+          
           &:hover {
-            fill: darken($main, 10%);
-            transform: scale(1.2);
+            transform: scale(1.1);
           }
         }
       }
@@ -154,7 +165,11 @@ body {
 // Responsive Adjustments
 @media screen and (max-width: 768px) {
   .contact-us {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 0 10px;
+  }
+  
+  .general-contact {
+    width: 95%;
   }
 }
 
