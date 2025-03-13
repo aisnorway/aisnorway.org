@@ -43,14 +43,14 @@ navabout = "Om"
 navcontact = "Kontakt"
 navactivity = "Aktivitet"
 
-generalcontact = "For generelle henvendelser vennligst ta kontakt på aisafety(at)gmail.com"
+generalcontact = "For generelle henvendelser vennligst ta kontakt på aisafetynorway(at)gmail.com"
 boardmembers = "Styret"
 
 titleLeader = "Operativ leder"
 titleSecLeader = "Intern Operativ Leder"
 titleEcoLeader = "Finansdirektør"
 titleTechLeader = "Teknologidirektør"
-titlePolicyLeader = "Seniorrådgiver for KI-politikk"
+titlePolicyLeader = "Direktør for KI-politikk"
 titleResearchLeader = "Forskningsdirektør"
 
 [markdown]
