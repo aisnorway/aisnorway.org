@@ -47,11 +47,11 @@ generalcontact = "For generelle henvendelser vennligst ta kontakt på aisafetyno
 boardmembers = "Styret"
 
 titleLeader = "Operativ leder"
-titleSecLeader = "Intern Operativ Leder"
+titleSecLeader = "Forskningsdirektør"
 titleEcoLeader = "Finansdirektør"
 titleTechLeader = "Teknologidirektør"
 titlePolicyLeader = "Direktør for KI-politikk"
-titleResearchLeader = "Forskningsdirektør"
+titleResearchLeader = "Forskningsveileder"
 
 [markdown]
 render_section_content = true
