@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="post-list-section">
+  <ul class="post-list">
+    {% if section.pages %}
+      {% for post in section.pages %}
+        <li class="post">
+          <a href="{{ get_url(path=post.path) }}">
+            <h3 class="post-title"><u>{{ post.title }}</u></h3>
+            <p class="post-meta">{{ post.date | date(format="%d %B %Y") }}</p>
+            <p class="post-description">{{ post.description }}</p>
+          </a>
+        </li>
+      {% endfor %}
+    {% else %}
+
+    <div class="no-posts-message">
+
+      <h3 class="no-posts-title">No blog posts found</h3>
+
+      {% include "robot.html" %}
+
+    </div>
+
+    {% endif %}
+  </ul>
+</div>
+{% endblock content %}
+ 
