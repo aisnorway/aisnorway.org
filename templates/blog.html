@@ -1,17 +1,22 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="post-list">
-  {% if section.pages %}
-    {% for post in section.pages %}
-    <div class="post">
-      <h2><a href="{{ get_url(path=post.path) }}">{{ post.title }}</a></h2>
-      <p>{{ post.date | date(format="%d %B %Y") }}</p>
-      <p>{{ post.summary }}</p>
-    </div>
-    {% endfor %}
-  {% else %}
-    <p>No blog posts found.</p>
-  {% endif %}
+<div class="post-list-section">
+  <ul class="post-list">
+    {% if section.pages %}
+      {% for post in section.pages %}
+      <a href="{{ get_url(path=post.path) }}">
+        <li class="post">
+          <h3><a class="post-title"><u>{{ post.title }}</u></a></h3>
+          <p class="post-meta">{{ post.date | date(format="%d %B %Y") }}</p>
+          <p class="post-description">{{ post.description }}</p>
+        </li>
+      </a>
+      {% endfor %}
+    {% else %}
+      <li>No blog posts found.</li>
+    {% endif %}
+  </ul>
 </div>
 {% endblock content %}
+ 
