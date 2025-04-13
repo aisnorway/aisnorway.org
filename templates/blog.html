@@ -5,13 +5,13 @@
   <ul class="post-list">
     {% if section.pages %}
       {% for post in section.pages %}
-      <a href="{{ get_url(path=post.path) }}">
         <li class="post">
-          <h3><a class="post-title"><u>{{ post.title }}</u></a></h3>
-          <p class="post-meta">{{ post.date | date(format="%d %B %Y") }}</p>
-          <p class="post-description">{{ post.description }}</p>
+          <a href="{{ get_url(path=post.path) }}">
+            <h3 class="post-title"><u>{{ post.title }}</u></h3>
+            <p class="post-meta">{{ post.date | date(format="%d %B %Y") }}</p>
+            <p class="post-description">{{ post.description }}</p>
+          </a>
         </li>
-      </a>
       {% endfor %}
     {% else %}
       <li>No blog posts found.</li>
