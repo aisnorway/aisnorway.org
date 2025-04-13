@@ -1,11 +1,15 @@
 .about-page {
 
-  width: 80%;
+  width: 60%;
   margin: auto;
   margin-top: 3%;
   word-wrap: break-word;
   word-break:normal;
 
+  @media only screen and (max-width: $cut) {
+    width: 85%;
+  }
+  
   .about-content {
     padding-top: 0;
     padding-bottom: 0;
