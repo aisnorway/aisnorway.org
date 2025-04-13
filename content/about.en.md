@@ -24,6 +24,6 @@ AI Safety Norway is a dedicated Norwegian non-profit organization working to ens
 
 Ready to join our mission or learn more? We'd love to hear from you!
 
-- **Email**: [aisafetynorway@gmail.com](mailto:aisafetynorway@gmail.com)
+- **Email**: [aisafetynorway(at)gmail.com](mailto:aisafetynorway@gmail.com)
 
 Whether you're interested in volunteering, collaborating on research, attending our events, or supporting our work in other ways, please reach out.

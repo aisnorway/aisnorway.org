@@ -24,6 +24,6 @@ AI Safety Norway er en dedikert norsk veldedig organisasjon som jobber for å si
 
 Vil du delta i vårt arbeid eller lære mer? Vi vil gjerne høre fra deg!
 
-- **E-post**: [aisafetynorway@gmail.com](mailto:aisafetynorway@gmail.com)
+- **E-post**: [aisafetynorway(at)gmail.com](mailto:aisafetynorway@gmail.com)
 
 Om du er interessert i å delta i vårt arbeid, ønsker å bidra på andre måter, eller bare har spørsmål, så ta kontakt!
