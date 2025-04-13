@@ -71,7 +71,7 @@
           src="{{ config.base_url ~ contact.image }}" 
           alt="{{ contact.name }}" 
           style="width: 250px; height: 300px;">
-        <h2>{{ contact.name }}</h2>
+        <h2 class="contactname">{{ contact.name }}</h2>
         <p>{{ trans(key=contact.title, lang=lang) }}</p>
       </div>
       {% if contact.links %}
@@ -96,11 +96,12 @@
     <div class="header-icons">
       <a aria-label="Send email" href="mailto:{{ config.extra.email }}"><i class="icon fa fa-envelope" aria-hidden="true"></i></a>
       <a aria-label="Our Twitter" target="_blank" href="{{ config.extra.twitter_username }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-      <a aria-label="Our Github" target="_blank" href="{{ config.extra.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+      <a aria-label="Our Github" target="_blank" href="{{ config.extra.github_username }}"><i class="icon fa fa-github" aria-hidden="true"></i></a>
     </div>
 
     <p>Theme by <a href="https://github.com/svavs">Silvano Sallese</a> (original by <a href="https://github.com/nrandecker">Nathan Randecker</a>). Modified by <a href="https://github.com/cengelsen">Christian Engelsen</a> </p>
 </footer>
+
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="{{ config.base_url ~ "/js/sweet-scroll.min.js" }}"></script>
 <script src="{{ config.base_url ~ "/js/main.js" }}"></script>
