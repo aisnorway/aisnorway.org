@@ -53,9 +53,13 @@
 
 
         }
-        .no-posts {
+        .no-posts-message {
             margin-top: 2em;
             text-align: center;
+
+            .no-posts-title {
+                margin-bottom: 3%;
+            }
         }
     }
 }
