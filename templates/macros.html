@@ -21,6 +21,17 @@
   {% set mypath = current_path | default(value='') | trim_start_matches(pat="/"~lang~"/") %}
   <nav class="nav">
 
+    <!-- Language picker -->
+    <div class="language-select">
+      {% if lang == "en" or current_path == "en/" %}
+      <a href="{{ get_url(path=mypath, lang="no") }}">Norsk</a>
+    {% else %}
+      <a href="{{ get_url(path=mypath, lang="en") }}">English</a>
+    {% endif %}
+    </div>
+
+    <hr>
+
     <ul>
       <li><a href="{{ get_url(path="/", lang=lang) }}">{{ trans(key="navhome", lang=lang) }}</a></li>
       <li><a href="{{ get_url(path="/activity", lang=lang) }}">{{ trans(key="navactivity", lang=lang) }}</a></li>

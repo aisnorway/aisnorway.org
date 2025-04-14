@@ -2,12 +2,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: clamp(40px, 5vh, 60px);
   background-color: $main;
   z-index: 10;
   text-align: center;
   display: flex;
-  justify-content: space-between; // Changed to space-between for layout
+  flex-direction: column; // Change to column layout
 
   ul {
     display: grid;
@@ -41,18 +40,27 @@
   }
 
   .language-select {
-    height: inherit;
-    width: clamp(40px, 20%, 60px);
-    font-size: 2rem;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1rem;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: $main;
 
     a {
       display: inline-block;
-      min-width: 100%;
-      height: clamp(40px, 5vh, 60px);
+      padding: 0 20px;
+      height: clamp(30px, 4vh, 40px);
       text-decoration: none;
       text-align: center;
-      line-height: clamp(40px, 5vh, 60px);
+      line-height: clamp(30px, 4vh, 40px);
+      color: white;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: lighten($main, 40%);
+      }
     }
   }
 }
