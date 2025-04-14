@@ -29,13 +29,7 @@ $font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, '
   box-sizing: border-box;
 }
 
-body {
-  font-family: $font-primary;
-  background-color: map-get($colors, light-gray);
-  color: map-get($colors, primary);
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
+// We're removing the body styling here to avoid conflicts with _base.scss
 
 .general-contact {
   text-align: center;
@@ -60,7 +54,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 20px;
-  padding: 0 15px;
+  padding: 0 15px 40px 15px; /* Added bottom padding */
   
   @media (min-width: 1080px) {
     grid-template-columns: repeat(3, 1fr);
@@ -76,6 +70,7 @@ body {
     flex-direction: column;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     @include smooth-transition(transform);
+    margin-bottom: 2rem;
     
     &:hover {
       transform: translateY(-5px);

@@ -1,6 +1,7 @@
 .activity-page {
-    margin-top: 3%;
-    width: 100vw;
+    flex: 1;
+    margin: 3% auto;
+    width: 100%;
 
     .activity-content, .activity-calendar {
         width: 65%;
@@ -21,7 +22,8 @@
     .activity-calendar iframe {
         margin-top: 3%;
         width: 100%;
-        height: 70vh;  
+        height: 70vh;
+        margin-bottom: 2rem;
     }
 
     .activity-content h2,h3{ 

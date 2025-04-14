@@ -28,14 +28,6 @@
       <li><a href="{{ get_url(path="/about", lang=lang) }}">{{ trans(key="navabout", lang=lang) }}</a></li>
       <li><a href="{{ get_url(path="/contact", lang=lang) }}">{{ trans(key="navcontact", lang=lang) }}</a></li>
     </ul>
-    
-    <div class="language-select">
-      {% if lang == "en" or current_path == "en/" %}
-      <a href="{{ get_url(path=mypath, lang="no") }}">🇳🇴</a>
-    {% else %}
-      <a href="{{ get_url(path=mypath, lang="en") }}">🇬🇧</a>
-    {% endif %}
-    </div>
   </nav>
 
   <link rel="stylesheet" href="{{ config.base_url ~ "/main.css" }}">
