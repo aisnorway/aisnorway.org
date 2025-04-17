@@ -36,6 +36,7 @@ titleEcoLeader = "Director of Financial Management"
 titleTechLeader = "Chief Technology Developer"
 titlePolicyLeader = "Policy Advocacy Leader"
 titleResearchLeader = "Director of AI Research"
+titlePolAdv = "Advisor for AI Policy"
 
 [translations]
 
@@ -54,6 +55,7 @@ titleEcoLeader = "Finansdirektør"
 titleTechLeader = "Teknologidirektør"
 titlePolicyLeader = "Direktør for KI-politikk"
 titleResearchLeader = "Forskningsveileder"
+titlePolAdv = "Rådgiver for KI-politikk"
 
 [markdown]
 render_section_content = true
@@ -100,5 +102,9 @@ contacts = [
     { name = "Joakim Hauger Sunde", image="/img/contacts/scileader.png", title = "titleResearchLeader", links = [
         { name = "Email", url ="mailto:joakimhauger97@gmail.com", label = "Email", icon = "fa fa-envelope"},
         { name = "Linkedin", url = "https://www.linkedin.com/in/joakim-sunde-825a5b148/", label = "LinkedIn", icon = "fa fa-linkedin"},
+    ]},
+
+    { name = "Tolga Bilge", image ="/img/contacts/tolga.jpeg", title = "titlePolAdv", links = [
+        {name="Email", url="mailto:tolga@bilge.no", label="Email", icon="fa fa-envelope"},
     ]}
 ]
