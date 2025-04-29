@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://aisnorway.github.io/aisnorway.org/sitemap.xml
